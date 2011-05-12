@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  profile_id: 1
+  deal_id: 1
+
+two:
+  profile_id: 1
+  deal_id: 2
+
+three:
+  profile_id: 1
+  deal_id: 3

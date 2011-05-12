@@ -1,0 +1,12 @@
+%h1 Your Groupon Profile
+= semantic_form_for @profile do |form|
+  = form.inputs :name => "Fill out your profile and we'll be able to send you more relevant deals." do
+    = form.input :first_name, :class => 'grid_8'
+    = form.input :email, :label => "Email Address"
+    = form.input :date_of_birth
+    = form.input :gender, :as => :radio,       :collection => Profile::GENDERS
+    = form.input :deals,  :as => :check_boxes, :label => 'My Favorite Deals'
+    = form.input :comment
+    = form.buttons do
+      = form.commit_button
+
