@@ -12,3 +12,46 @@ The following style may be *conditionally* included for improved support on olde
 form.formtastic fieldset ol li fieldset legend { margin-left: -6px;}
 
 --------------------------------------------------------------------------------------------------*/
+
+form.formtastic fieldset legend {
+  padding: 0 0 20px 0; }
+form.formtastic fieldset ol fieldset.buttons {
+  margin: 0 0 0 150px;
+  padding: 0; }
+form.formtastic fieldset ol li.error label {
+  color: #cc0000; }
+form.formtastic fieldset ol li fieldset legend {
+  float: left;
+  position: static;
+  width: 150px; }
+form.formtastic fieldset ol li fieldset ol {
+  float: none;
+  margin: 0 0 0 150px;
+  padding: 0; }
+form.formtastic fieldset ol li label {
+  display: inline-block;
+  width: 150px; }
+form.formtastic fieldset ol li input[text] {
+  width: 250px; }
+form.formtastic fieldset ol li p.inline-errors {
+  margin: 5px 0 0 150px; }
+form.formtastic fieldset ol li.check_boxes ol {
+  width: 300px; }
+  form.formtastic fieldset ol li.check_boxes ol li {
+    float: left;
+    width: 150px; }
+form.formtastic fieldset ol li.date fieldset ol li {
+  margin: 1px 0 0 0; }
+  form.formtastic fieldset ol li.date fieldset ol li select {
+    margin: 0 10px 0 0; }
+form.formtastic fieldset ol li.radio fieldset ol li {
+  float: left;
+  margin: 0 20px 0 0;
+  padding: 0 10px 0 0; }
+
+.grid_8 {
+  width: 600px; }
+
+.grid_2 {
+  float: left;
+  width: 150px; }
